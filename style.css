@@ -1,0 +1,53 @@
+body{
+    background-color: #316e6e;
+    width: 50%;
+    /* border: 2px solid red; */
+    color: #e6f0f0;
+}
+#todo-form{
+    justify-content: center;
+    padding: 15px;
+    background-color: #7fa3a3;
+    margin: auto;
+    position: relative;
+    left: 250px;
+    top: 135px;
+    border-radius: 10px;
+}
+h1{
+    position: relative;
+    left: 350px;
+    top: 140px;
+}
+#todo-form>input{
+    background-color: transparent;
+    border: 2px solid #316e6e;
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    position: relative;
+    left: 70px;
+}
+#todo-form>button{
+    background-color: transparent;
+    border: 2px solid #316e6e;
+    width: 75px;
+    height: 30px;
+    color: aliceblue;
+    position: relative;
+    left: 150px;
+}
+#todo-list{
+    
+    margin: auto;
+    background-color: #7fa3a3;
+    position: relative;
+    left: 250px;
+    top: 120px;
+    border-radius: 10px;
+    padding: 60px;
+}
+#todo-list{
+    text-align: center;
+    
+}
