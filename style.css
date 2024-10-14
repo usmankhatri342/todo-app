@@ -16,7 +16,7 @@ body{
     top: 40px;
     border-radius: 10px;
 }
-h1{
+#title{
     color: #316e6e;
     position: relative;
     left: 570px;
@@ -55,7 +55,71 @@ h1{
     
 }
 
-/* #todo-list{
-    text-align: center;
+@media only screen and (max-width: 600px) {
+
+    body{
+        background-color: #9da5a5;
+        
+        color: #263f3f;
+    }
+    #title{
+        font-size: 35px;
+        color: #263f3f;
+        position: relative;
+        left: 1px;
+        bottom: 280px;
+    }
+    #todo-form{
+        width: 80%;
+      
+        justify-content: center;
     
-} */
+        background-color: #263f3f;
+        margin: auto;
+        position: relative;
+        height: 120px;
+        top: 40px;
+        border-radius: 10px;
+    }
+    #title{
+        color: #e76216;
+        /* position: relative;
+        right: 250px;
+        top: 100px; */
+        text-align: center;
+    }
+    #todo-form>input{
+        background-color: transparent;
+        border: 2px solid  #9da5a5;
+        color:  #9da5a5;
+        width: 275px;
+        height: 25px;
+        border-radius: 5px;
+        position: relative;
+        left: 50px;
+        top: 25px;
+    }
+    #todo-form>button{
+        background-color: transparent;
+        border: 2px solid  #9da5a5;
+        width: 85px;
+        height: 35px;
+        color:  #9da5a5;
+        position: relative;
+        left: 150px;
+        top: 25px;
+        border-radius: 7px;
+    }
+    #todo-list{
+        width: 57%;
+        
+        
+        background-color:  #263f3f;
+        position: relative;
+        color:  #9da5a5;
+        top: 50px;
+        border-radius: 10px;
+        padding: 80px;
+        
+    }
+  };
