@@ -1,25 +1,8 @@
-// Open Source
-// Good first issue
 
-// const timeOutKiID = setTimeout( () => {
-//   console.log("testing");
-// }, 6000);
-
-// clearTimeout(timeOutKiID)
-
-// const id = setInterval(() => {
-//   console.count("testing");
-// }, 1000);
-
-// clearInterval(id);
-
-// localStorage.setItem("mode", "dark");
-
-// console.log(localStorage.getItem("mode"))
 
 const form = document.querySelector("#todo-form");
 const list = document.querySelector("#todo-list");
-
+const saveList = document.querySelector("#saveList");
 const todolist = [
     "NAMAZ",
     "practice",
@@ -28,6 +11,12 @@ const todolist = [
 
 ];
     
+// const savelist = [
+
+// ];
+// localStorage.setItem("saveList", JSON.stringify(saveList));
+// const save = JSON.parse(localStorage.getItem("saveList"));
+
 localStorage.setItem("mulist", JSON.stringify(todolist));
 
 const mulist = JSON.parse(localStorage.getItem("mulist"));

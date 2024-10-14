@@ -1,53 +1,61 @@
 body{
-    background-color: #316e6e;
-    width: 50%;
+    background-color: #9da5a5;
+    
     /* border: 2px solid red; */
-    color: #e6f0f0;
+    color:  #9da5a5;
 }
 #todo-form{
+    width: 40%;
+    padding: 50px;
     justify-content: center;
     padding: 15px;
-    background-color: #7fa3a3;
+    background-color: #263f3f;
     margin: auto;
     position: relative;
-    left: 250px;
-    top: 135px;
+
+    top: 40px;
     border-radius: 10px;
 }
 h1{
+    color: #316e6e;
     position: relative;
-    left: 350px;
-    top: 140px;
+    left: 570px;
+    top: 50px;
 }
 #todo-form>input{
     background-color: transparent;
-    border: 2px solid #316e6e;
-    width: 250px;
+    border: 2px solid  #9da5a5;
+    color:  #9da5a5;
+    width: 350px;
     height: 25px;
     border-radius: 5px;
     position: relative;
-    left: 70px;
+    left: 90px;
+    top: 5px;
 }
 #todo-form>button{
     background-color: transparent;
-    border: 2px solid #316e6e;
-    width: 75px;
-    height: 30px;
-    color: aliceblue;
+    border: 2px solid  #9da5a5;
+    width: 85px;
+    height: 35px;
+    color:  #9da5a5;
     position: relative;
-    left: 150px;
+    left: 220px;
+    border-radius: 7px;
 }
 #todo-list{
-    
+    width: 30%;
     margin: auto;
-    background-color: #7fa3a3;
+    background-color:  #263f3f;
     position: relative;
-    left: 250px;
-    top: 120px;
+    color:  #9da5a5;
+    top: 50px;
     border-radius: 10px;
-    padding: 60px;
+    padding: 80px;
+    
 }
-#todo-list{
+
+/* #todo-list{
     text-align: center;
     
-}
+} */
